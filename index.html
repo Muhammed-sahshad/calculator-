@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <div class="input">
+                <input id="screen" type="text">
+            </div>
+            <div class="buttons">
+                 <button onclick="allClear()" class="gray-button">AC</button>
+                 <button onclick="clicked('')" class="gray-button">+/-</button>
+                 <button onclick="percentageClicked()" class="gray-button">%</button>
+                 <button onclick="divisionClicked()" class="orange-button">&#xF7</button>
+                 <button onclick="clicked('7')" class="button">7</button>
+                 <button onclick="clicked('8')" class="button">8</button>
+                 <button onclick="clicked('8')" class="button">9</button>
+                 <button onclick="multiplyClicked()" class="orange-button">&#xd7</button>
+                 <button onclick="clicked('4')" class="button">4</button>
+                 <button onclick="clicked('5')" class="button">5</button>
+                 <button onclick="clicked('6')" class="button">6</button>
+                 <button onclick="minusClicked()" class="orange-button">&#x2212</button>
+                 <button onclick="clicked('1')" class="button">1</button>
+                 <button onclick="clicked('2')" class="button">2</button>
+                 <button onclick="clicked('3')" class="button">3</button>
+                 <button onclick="plusClicked()" class="orange-button">+</button>                
+            </div>
+            <div class="last-buttons">
+                <button onclick="clicked('0')" class="zero">0</button>
+                <button onclick="clicked('.')" class="dot">&#xb7</button>
+                <button onclick="equalClicked()" class="equal">=</button>
+            </div>           
+        </div>
+    </div>
+</body>
+</html>
